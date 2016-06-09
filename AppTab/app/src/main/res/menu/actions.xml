@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_speaker"
+        android:icon="@drawable/ic_speaker_notes_black_48dp"
+        android:title="Slect chat to listen"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_speak"
+        android:icon="@drawable/ic_settings_voice_black_48dp"
+        android:title="Speak"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+</menu>
